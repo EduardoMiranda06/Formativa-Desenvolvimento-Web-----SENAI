@@ -10,7 +10,7 @@ body {
     background-color: #222;
 }
 
-/* HEADER */
+
 header {
     position: relative;
     width: 100%;
@@ -23,7 +23,6 @@ header {
     justify-content: center;
 }
 
-/* Barra de navegação */
 .nav-bar {
     position: absolute;
     top: 10px;
@@ -35,7 +34,6 @@ header {
     padding: 10px 30px;
 }
 
-/* Agrupa logo e menu */
 .logo-menu {
     display: flex;
     align-items: center;
@@ -70,7 +68,6 @@ header {
     color: black;
 }
 
-/* Botão de inscrição */
 .btn {
     background: #00ffcc;
     color: black;
@@ -85,7 +82,6 @@ header {
     background: #00cca3;
 }
 
-/* Texto principal */
 .headline {
     text-align: center;
     max-width: 600px;
@@ -101,7 +97,7 @@ header {
     color: #00ffcc;
 }
 
-/* Botões abaixo do texto */
+
 .buttons {
     display: flex;
     justify-content: center;
@@ -109,7 +105,7 @@ header {
     margin-top: 20px;
 }
 
-/* SEÇÃO QUEM SOMOS */
+
 .quem-somos {
     display: flex;
     align-items: center;
@@ -154,7 +150,6 @@ header {
     border-radius: 10px;
 }
 
-/* SEÇÃO DOS ÍCONES */
 .features {
     display: flex;
     justify-content: center;
@@ -184,7 +179,6 @@ header {
     font-size: 18px;
 }
 
-/* SEÇÃO 2 - NOSSAS FUNCIONALIDADES */
 .secao2 {
     display: flex;
     align-items: center;
@@ -229,7 +223,6 @@ header {
     border-radius: 10px;
 }
 
-/* SEÇÃO 3 - NOSSO COMPROMISSO */
 .secao3 {
     display: flex;
     align-items: center;
@@ -274,8 +267,6 @@ header {
     border-radius: 10px;
 }
 
-/*FOOTER */
-
 footer {
     background-color: black;
     color: white;
@@ -303,10 +294,10 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #00ffcc;
+    color: aqua;
 }
 
-/* RESPONSIVIDADE */
+
 @media screen and (max-width: 768px) {
     .nav-bar {
         flex-direction: column;
